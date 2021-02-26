@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Timer</title>
+</head>
+<body>
+    <div class="container">
+        <div class="image"><center><img src="timer.png" width="40%" height="20%" alt="" id="timer">
+            <br>
+            <span id="countdown" > 60 </span> <span id="plural">s</span>
+            <br>
+            <div class="block">
+                <button id="start" name="start" class="fill" onclick="startTimer()">START</button><br>
+                <button id="add" name="+5" class="fill" onclick="add()">+5</button><br>                
+            </div>
+            <div class="block">
+                <button id="pause" name="pause" class="fill" onclick="pauseTimer()">PAUSE</button> <br>
+                <button id="remove" name="remove" class="fill" onclick="remove()">-5</button> <br>
+            </div>
+            <div class="block2"><button id="end" name="" class="fill" onclick="endTimer()">END</button></div>
+        
+        </center> </div>
+        <!-- <div class="text"></div> -->
+        <div></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
